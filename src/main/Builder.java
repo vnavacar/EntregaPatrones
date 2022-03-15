@@ -1,7 +1,11 @@
 package main;
 
 public interface Builder {
-	void setUnidadCentral(String unidad);
-	void setImpresora(String impresora);
-	void setScanner(String scanner);
+	void setUnidadCentral(UnidadCentral unidad);
+	void setImpresora(Impresora impresora);
+	void setPantalla(Pantalla scanner);
+	void setRaton(Raton raton);
+	void setTableta(Tableta tableta);
+	void setTeclado(Teclado teclado);
+	
 }
