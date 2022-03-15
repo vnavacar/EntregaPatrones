@@ -5,11 +5,7 @@ public class ComputerBuilder implements Builder {
 	private UnidadCentral Unidad;
     
 
-
-    public void setUnidadCentral(String Unidad) {
-        this.Unidad = Unidad;
-    }
-
+/*
     @Override
     public void setPrecio(int Precio) {
         this.Precio = Precio;
@@ -18,7 +14,7 @@ public class ComputerBuilder implements Builder {
     @Override
     public void setEngine(Engine engine) {
         this.engine = engine;
-    }
+    }*/
 
     @Override
     public void setTransmission(Transmission transmission) {

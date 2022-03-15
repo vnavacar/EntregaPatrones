@@ -23,13 +23,13 @@ public class Component {
 		return Modelo;
 	}
 	public void setPrecio(int precio) {
-        precio= precio;
+        this.precio= precio;
     }
 	public void setFabricante(String Fabricante) {
-        Fabricante= Fabricante;
+        this.Fabricante= Fabricante;
     }
 	public void setModelo(String Modelo) {
-        Modelo= Modelo;
+        this.Modelo= Modelo;
     }
 	
 }
