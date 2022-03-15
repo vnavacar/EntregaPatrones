@@ -26,6 +26,10 @@ public class Computer {
 		precio = Unidad.getPrecio()+teclado.getPrecio()+raton.getPrecio()+tableta.getPrecio()+pantalla.getPrecio()+impresora.getPrecio();
 		return precio;
 	}
+	public String print() {
+		String returner = Unidad.getModelo()+teclado.getModelo()+impresora.getModelo()+pantalla.getModelo()+raton.getModelo()+tableta.getModelo();
+		return returner;
+	}
 	
 
 }

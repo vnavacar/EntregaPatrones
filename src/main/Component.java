@@ -4,7 +4,7 @@ public class Component {
 	
 	private int precio;
 	private String Fabricante;
-	private String Modelo;
+	private String Modelo = "";
 	
 	public Component(int precio, String Fabricante, String Modelo) {
 		
